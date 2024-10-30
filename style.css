@@ -10,7 +10,6 @@ body, html {
   overflow: hidden;
 }
 
-/*
 .background {
   position: absolute;
   display: flex;
@@ -18,39 +17,25 @@ body, html {
   justify-content: center;
   height: 100%;
   width: 100%;
-  background-image: url('assets/download.png');
+  background: rgba(106,121,108,0.2); 
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
   background-size: cover;
   background-position: center;
-  filter: blur(1px); 
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.9); 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: -1;
-}
-*/
 .loading-container {
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
-  z-index: 1; 
   position: relative;
-}
+  }
 
 .logo {
   width: 250px;
   height: auto;
   animation: pulse 1.5s infinite;
-  height: auto;
   padding-right: 25px;
 }
 
@@ -68,6 +53,7 @@ body, html {
 }
 
 .subphrase1 {
+  padding-top: 2px;
   color: #6A796C;
   font-weight: 400;
   font-size: 12px;

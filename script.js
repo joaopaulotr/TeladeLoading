@@ -1,17 +1,17 @@
 
 
 const phrases = [
-  "Carregando dados...",
-  "Preparando o conteúdo...",
-  "Aguarde um momento...",
-  "Estamos quase prontos..."
+  "Seu sonho, nosso compromisso",
+  "O caminho para suas conquistas",
+  "Consórcio inteligente",
+  "Investindo no seu amanhã"
 ];
 
 const secondphrases = [
-  "Aguarde enquanto configuramos...",
-  "Quase lá...",
-  "Só mais um instante...",
-  "Finalizando os últimos detalhes..."
+  "Planeje e realize conosco",
+  "Confiança no seu futuro",
+  "Inovação para seu sucesso",
+  "Transforme planos em realidade"
 ];
 
 
